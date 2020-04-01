@@ -12,6 +12,8 @@ const SUPPORTED_PROPS = Object.keys(propTypes)
 
 let customPlayers = []
 
+console.log( 'This is Kazuma' );
+
 export default class ReactPlayer extends Component {
   static addCustomPlayer = player => {
     customPlayers.push(player)
